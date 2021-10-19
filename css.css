@@ -136,6 +136,7 @@ body {
 
 p {
     text-align: left;
+    font-size: 18px;
 }
 
 .flex-container {
@@ -177,6 +178,7 @@ hr {
 a {
     text-decoration: none;
     color: black;
+    font-size: 18px;
 }
 
 .card h1 {
@@ -186,7 +188,7 @@ a {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -199,5 +201,50 @@ ul.a, ul.b {
 }
 
 span {
+    font-weight: bold;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: #333333;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+}
+
+.poziadavky {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.poziadavky td, .poziadavky th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.poziadavky tr:nth-child(even) {
+    background-color: #AAAAAA;
+}
+
+.poziadavky tr:hover {
+    background-color: #BBBBBB;
+}
+
+.poziadavky th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+    color: white;
+}
+
+.poziadavky tr td:nth-child(1) {
+    text-align: center;
     font-weight: bold;
 }
