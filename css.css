@@ -18,6 +18,7 @@ body {
     padding: 30px;
     text-align: left;
     background: rgba(250,250,250,0.4);
+    display: block;
     /*position: sticky;*/
     /*top: 1px;*/
 }
@@ -25,6 +26,12 @@ body {
 .header h1 {
     font-size: 60px;
     font-family: Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.header:hover {
+    background: rgba(250,250,250,0.5);
 }
 
 /* Style the top navigation bar */
@@ -157,7 +164,40 @@ p {
     padding-bottom: 10px;
 }
 
+.ponuky a:hover {
+    color: #dddddd;
+}
+
 hr {
+    margin-bottom: 10px;
+    border-color: #333333;
     background-color: #333333;
-    padding-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h1 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul.a, ul.b {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 20px;
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
 }
