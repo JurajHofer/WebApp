@@ -5,11 +5,9 @@
 }
 
 body {
-    font-family: Arial;
-    background: black;
-    background-image: url("pozadie.png");
+    font-family: Arial,Helvetica, sans-serif;
+    background: black url("pozadie.png") no-repeat;
     background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 /* Header/Blog Title */
@@ -25,7 +23,7 @@ body {
 
 .header h1 {
     font-size: 60px;
-    font-family: Arial;
+    font-family: Arial,Helvetica, sans-serif;
     color: black;
     text-decoration: none;
 }
@@ -123,6 +121,11 @@ body {
     float: left;
 }
 
+.icon img {
+    width: auto;
+    height: 60px;
+}
+
 .description h2 {
     float: left;
 }
@@ -150,6 +153,10 @@ p {
     padding-right: 10px;
 }
 
+.flex-item-left img {
+    width: 100%;
+}
+
 .flex-item-right {
     padding-left: 10px;
     flex: 50%;
@@ -163,6 +170,11 @@ p {
 
 .ponuky h2 {
     padding-bottom: 10px;
+}
+
+.ponuky img {
+    width: 60%;
+    height: auto;
 }
 
 .ponuky a:hover {
